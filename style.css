@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.input-row, .prize-row { display: flex; gap: 8px; margin-bottom: 8px; align-items: center; }
+input { padding: 6px; }
+.name-input { flex: 1; }
+.chance-input { width: 60px; }
+prize-desc { flex: 1; }
+.prize-count { width: 60px; }
+button { padding: 6px 10px; cursor: pointer; }
+.remove-btn { background: #f44336; color: white; border: none; }
+.controls { margin-top: 15px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+#winners { margin-top: 15px; background: #f4f4f4; padding: 10px; }
+.winner { background: white; padding: 6px; margin-bottom: 4px; }

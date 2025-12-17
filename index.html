@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Name Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>NAME RANDOMIZER</h1>
+
+<div id="inputs"></div>
+
+<h2>Prizes</h2>
+<div id="prizes-list"></div>
+<button id="add-prize">Add prize</button>
+
+<div class="controls">
+	<button id="add-input">Add name</button>
+
+	<label>Winners:</label>
+	<input id="winners-count" type="number" value="1" min="1">
+
+	<button id="mode-btn">Mode: Normal</button>
+
+	<button id="draw">Draw</button>
+	<button id="restart" style="display:none">Restart</button>
+	<button id="new" style="display:none">New</button>
+</div>
+
+<div id="winners"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
